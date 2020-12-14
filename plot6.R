@@ -23,7 +23,6 @@ VhclsLANEI <- VhclsNEI[VhclsNEI$fips=="06037",]
 VhclsLANEI$city <- "Los Angeles County"
 bothNEI <- rbind(VhclsBaltimoreNEI,VhclsLANEI)
 
-library(ggplot2)
 
 png("Plot6.png",width=500,height=400,units="px",bg="transparent")
 
